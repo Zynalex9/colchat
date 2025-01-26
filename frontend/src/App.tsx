@@ -1,11 +1,7 @@
-import JoinButton from "./components/JoinButton";
+import AllRoutes from "./route/AllRoutes";
 
 const App = () => {
-  return (
-    <div className="h-screen flex items-center justify-center">
-      <JoinButton/>
-    </div>
-  );
+  return <AllRoutes />;
 };
 
 export default App;
